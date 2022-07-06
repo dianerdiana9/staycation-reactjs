@@ -1,9 +1,7 @@
-import RandomMealGenerator from './views/100ProjectChallenge/Day1'
-
 function App() {
   return (
     <>
-      <RandomMealGenerator />
+      <h1>Hello</h1>
     </>
   )
 }
