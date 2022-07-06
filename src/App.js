@@ -1,3 +1,7 @@
+import React from 'react'
+
+import './@core/assets/scss/style.scss'
+
 function App() {
   return (
     <>
