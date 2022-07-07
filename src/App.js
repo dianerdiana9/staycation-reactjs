@@ -1,12 +1,16 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import './@core/assets/scss/style.scss'
+import './assets/scss/style.scss'
+import LandingPage from './pages/LandingPage'
 
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />}></Route>
+      </Routes>
+    </Router>
   )
 }
 

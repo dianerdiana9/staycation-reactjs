@@ -1,0 +1,14 @@
+@import '../../@core/assets/scss/style.scss';
+@import './header.scss';
+
+.brand-text-icon {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: $primary;
+
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
