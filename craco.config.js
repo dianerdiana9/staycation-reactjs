@@ -1,6 +1,13 @@
 const path = require('path')
 
 module.exports = {
+  // rules: [
+  //   {
+  //     test: /\.svg$/i,
+  //     issuer: /\.[jt]sx?$/,
+  //     use: ['@svgr/webpack']
+  //   }
+  // ],
   webpack: {
     alias: {
       '@src': path.resolve(__dirname, 'src'),
