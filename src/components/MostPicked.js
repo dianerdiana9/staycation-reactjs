@@ -16,8 +16,8 @@ export default function MostPicked(props) {
             >
               <div className="card card-featured">
                 <div className="tag">
-                  {item.price}
-                  <span className="font-weight-light">per {item.unit}</span>
+                  ${item.price}
+                  <span className="font-weight-light"> per {item.unit}</span>
                 </div>
                 <figure className="img-wrapper">
                   <img
