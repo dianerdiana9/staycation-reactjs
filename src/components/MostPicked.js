@@ -1,7 +1,7 @@
 import React from 'react'
 
 // ** custom component
-import Button from '@components/Button'
+import Button from '../@core/components/Button'
 
 // fading components
 import Fade from 'react-reveal/Fade'

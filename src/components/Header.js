@@ -2,7 +2,7 @@ import React from 'react'
 
 import { useLocation } from 'react-router-dom'
 
-import Button from '@components/Button'
+import Button from '../@core/components/Button'
 import BrandIcon from './IconText'
 
 // fading components

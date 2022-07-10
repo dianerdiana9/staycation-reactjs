@@ -1,14 +1,14 @@
 import React from 'react'
 
 // ** import custom components
-import Button from '@components/Button'
+import Button from '../@core/components/Button'
 
 // // ** Import assets
-import ImageHero from '@src/assets/images/image-hero.jpg'
-import ImageHeroFrame from '@src/assets/images/image-hero-frame.jpg'
-import { ReactComponent as IconCities } from '@src/assets/icons/ic_cities.svg'
-import { ReactComponent as IconTraveler } from '@src/assets/icons/ic_traveler.svg'
-import { ReactComponent as IconTreasure } from '@src/assets/icons/ic_treasure.svg'
+import ImageHero from '../assets/images/image-hero.jpg'
+import ImageHeroFrame from '../assets/images/image-hero-frame.jpg'
+import { ReactComponent as IconCities } from '../assets/icons/ic_cities.svg'
+import { ReactComponent as IconTraveler } from '../assets/icons/ic_traveler.svg'
+import { ReactComponent as IconTreasure } from '../assets/icons/ic_treasure.svg'
 
 // fading components
 import Fade from 'react-reveal/Fade'
