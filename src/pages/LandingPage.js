@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import MostPicked from '../components/MostPicked'
 import Categories from '../components/Categories'
+import Testimony from '../components/Testimony'
 
 // ** Import fake data (json)
 import landingPage from '../json/landingPage.json'
@@ -17,6 +18,7 @@ export default function LandingPage(props) {
       <Hero data={landingPage.hero} refMostPicked={refMostPick} />
       <MostPicked data={landingPage.mostPicked} refMostPicked={refMostPick} />
       <Categories data={landingPage.categories} refMostPicked={refMostPick} />
+      <Testimony data={landingPage.testimonial} />
     </>
   )
 }

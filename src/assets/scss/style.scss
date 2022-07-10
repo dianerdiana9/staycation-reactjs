@@ -6,7 +6,7 @@ $screen-lg: 960px;
 $screen-md: 720px;
 
 section {
-  padding: 25px 0;
+  margin-bottom: 70px;
 }
 
 .brand-text-icon {
@@ -136,6 +136,11 @@ section {
       }
     }
   }
+}
+
+.testimonial-hero, .testimonial-hero img {
+    width: 365px;
+    height: 500px;
 }
 
 @media screen and (max-width: $screen-lg) {
