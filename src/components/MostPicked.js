@@ -14,11 +14,11 @@ export default function MostPicked(props) {
         <div className="container-grid">
           {props.data.map((item, index) => {
             return (
-              <Fade bottom delay={500 * index}>
-                <div
-                  className={`item column-4 ${index === 0 ? 'row-2' : 'row-1'}`}
-                  key={`mostpick-${index}`}
-                >
+              <div
+                className={`item column-4 ${index === 0 ? 'row-2' : 'row-1'}`}
+                key={`mostpick-${index}`}
+              >
+                <Fade bottom delay={500 * index}>
                   <div className="card card-featured">
                     <div className="tag">
                       ${item.price}
@@ -47,8 +47,8 @@ export default function MostPicked(props) {
                       </span>
                     </div>
                   </div>
-                </div>
-              </Fade>
+                </Fade>
+              </div>
             )
           })}
         </div>
